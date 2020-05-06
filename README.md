@@ -9,7 +9,7 @@ Selenium Xpath wrapper , support browsers Chrome, Firefox, Supported OS Windows,
 
 # To Use Chrome Browser :
 
-### from basepath.basec import driver,checkbyxpath
+### from xpathwrapper.basec import driver,checkbyxpath
 
 ### driver.get('http://testing.pythonautomation.tk/')
 
@@ -17,12 +17,11 @@ Selenium Xpath wrapper , support browsers Chrome, Firefox, Supported OS Windows,
 
 # To Use Firefox Browser :
 
-### from basepath.basef import driver,checkbyxpath
+### from xpathwrapper.basec import driver,checkbyxpath
 
 ### driver.get('http://testing.pythonautomation.tk/')
 
-### checkbyxpath("//ul[@class='actions']//li/a[text()='Test Me']").click()
-
+### checkbyxpath("//ul[@class='actions']//li/a[text()='Test Me']").click(
 .................................... Key Words ..........................
 
 # checkbyid(locator):
